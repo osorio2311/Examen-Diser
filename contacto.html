@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contacto</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+</head>
+<body>
+    <header>
+        <nav id="nav">
+            <img src="img/favicon.png" class="imgLogo" alt="Logo Diser">
+        </nav>
+        <ul id="menu">
+            <li><a href="inicio.html" target="_blank">Inicio</a></li>
+            <li><a href="eficiencia.html" target="_blank">Eficiencia</a></li>
+            <li><a href="imagenes.html" target="_blank">Galería</a></li>
+            <li><a href="contacto.html" target="_blank">Contacto</a></li>
+        </ul>
+    </header>
+
+    <div>
+        <img src="img/diser_logo.png" alt="Diser_logo" class="fotoGrande">
+    </div>
+
+    <div class="fraseImportante">
+        <h2>AUTOCONSUMO FOTOVOLTAICO PARA EMPRESAS</h2>
+        <P>Descubre cómo puedes <strong>ahorrar hasta un 60% en la factura de electricidad de tu empresa</strong> con las <strong> de autoconsumo industrial</strong> de Diser</P>
+    </div>
+
+
+     <!-- Linea de separación -->
+     <div class="lineaDegradada"></div>
+
+
+
+     <!-- datos de contacto -->
+    <h2 class="contacto">PONTE EN CONTACTO CON NOSOTROS</h2>
+    <div class="contacto-formulario">
+        <div class="datos-contacto">
+            <p><i class="fas fa-map-marker-alt"></i> Dirección: Calle Cardenio</p>
+            <p><i class="fas fa-map-pin"></i> CP 13200 Alcázar de San Juán</p>
+            <p><i class="fas fa-phone"></i> Teléfono: 651484015</p>
+            <p><i class="fas fa-envelope"></i> Email: osorio231173@hotmail.com</p>
+        
+        </div>
+
+
+
+        <div class="formulario">
+            <form id="formularioContacto" onsubmit="return validarFormulario()">
+
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre">
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+
+                <label for="telefono">Teléfono:</label>
+                <input type="tel" id="telefono" name="telefono">
+
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje"></textarea>
+
+                <div class="form-buttons">
+                    <button type="submit">Enviar</button>
+                    <button type="reset">Resetear</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div id="mensajeValidacion"></div>
+
+
+    
+    <footer class="fondoFooter">
+        <p>🔏©️José Luis Osorio González🔏
+    </footer>
+
+
+
+<script src="script.js"></script>
+</body>
+</html>
